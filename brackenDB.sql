@@ -44,7 +44,6 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `username`, `email`, `phone`, `password`, `gender`) VALUES
 (1, 'Mutasem Mustafa', 'gazawi', 'm@bracken.team', 788717057, 'b6f8f194049b037e79ea2b2605c127f1', 'Male'),
 (2, 'Majd Banat', 'glory', 'majd@bracken.team', 795774826, '47b52b82e473a42f861765e8bb85bb10', 'Male'),
-(7, 'Ahmad Bilide', 'bilide', 'a@bracken.team', 787638500, '8f399d756a6038512ee6bed516746343', 'Male'),
 (8, 'test', 'test', 'test@test-test.test', 1234567890, 'd0755dcb967153761f734690cfe60e57', 'Female');
 
 -- --------------------------------------------------------
@@ -66,8 +65,8 @@ CREATE TABLE `writeup` (
 --
 
 INSERT INTO `writeup` (`id`, `name`, `title`, `link`, `picture`) VALUES
-(1, 'Majd Banat', 'Cyber Talents General Information Challenges', 'https://medium.com/@glorybnat/general-information-challenges-from-cybertalents-78df9780f208', '66a6b293a5e48.png'),
-(8, 'Ahmad Bilide', 'Cyber Talents | Raw Disk', 'https://medium.com/@ahmadbilide/cyber-talents-raw-disk-bac6ca85606b', '66a6b2bdb4854.png');
+(1, 'Mutasem', 'Cyber Talents General Information Challenges', 'https://medium.com/@glorybnat/general-information-challenges-from-cybertalents-78df9780f208', '66a6b293a5e48.png'),
+(8, 'Mutasem', 'Cyber Talents | Raw Disk', 'https://medium.com/@ahmadbilide/cyber-talents-raw-disk-bac6ca85606b', '66a6b2bdb4854.png');
 
 --
 -- Indexes for dumped tables
